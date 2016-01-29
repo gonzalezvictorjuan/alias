@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install -y fortune fortune-es fortunes-es-off
+sudo apt-get install -y fortunes-es fortunes-es-off
 echo '#Comandos Personalizados' >> ~/.bashrc
 echo 'cowsay -f "$(ls /usr/share/cowsay/cows/ | sort -R | head -1)" "$(fortune -s)"' >> ~/.bashrc
 echo 'alias edita="sudo nano ~/.bashrc && source ~/.bashrc"' >> ~/.bashrc

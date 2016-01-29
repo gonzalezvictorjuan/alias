@@ -1,8 +1,8 @@
-Script sencillo que crea un archivo llamado .bashrc_alias, al cual agregara alias ya personalizados, siguiendo el ejemplo de los alias ya creados, se pueden crear alias propios.
+Script sencillo que agrega alias al archivo llamado .bashrc, estos alias ya son personalizados, siguiendo el ejemplo de los alias ya creados, se pueden crear alias propios.
 
 Los alias precargados son:
 
-edita -> "sudo nano ~/.bashrc_alias  && source ~/bashrc_alias"
+edita -> "sudo nano ~/.bashrc  && source ~/.bashrc"
 
 instalar -> "sudo apt-get install -y"
 
